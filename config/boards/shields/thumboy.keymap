@@ -59,14 +59,14 @@
 
                 Home_layer {
                         bindings = <
-   &kp L &kp D &kp W &kp LEFT_ALT &kp TAB &kp F &kp O &kp U
+                        &kp L        &kp D        &kp W        &kp LEFT_ALT        &kp TAB        &kp F        &kp O        &kp U
 
-   &kp N &kp R &kp T &kp S &kp G &kp Y &kp H &kp A &kp E &kp I
+                        &kp N        &kp R        &kp T        &kp S        &kp G        &kp Y        &kp H        &kp A        &kp E        &kp I
 
-   &kp Q &kp X &kp M &kp C &kp V &kp K &kp P &kp B &kp J &kp Z
+                        &kp Q        &kp X        &kp M        &kp C        &kp V        &kp K        &kp P        &kp B        &kp J        &kp Z
 
-                  &sk LEFT_SHIFT &kp ESCAPE
-                  &to 1 &kp SPACE &sk LEFT_CONTROL &kp ENTER &kp BACKSPACE &kp RIGHT_GUI
+                                        &sk LEFT_SHIFT        &kp ESCAPE
+                                        &to 1        &kp SPACE        &sk LEFT_CONTROL        &kp ENTER        &kp BACKSPACE        &kp RIGHT_GUI
                         >;
                 };
 
@@ -74,10 +74,10 @@
 
                 Symbol_layer {
                         bindings = <
-   &kp LEFT_BRACE &kp LESS_THAN &kp LEFT_PARENTHESIS &kp LEFT_ALT &kp TAB &kp SLASH &kp SINGLE_QUOTE &kp AMPERSAND &kp DOT &kp UNDERSCORE &kp LEFT_ARROW &kp RIGHT_ARROW &kp MINUS &kp SEMICOLON &kp DOWN_ARROW &kp UP_ARROW &kp ASTERISK &kp COMMA &kp GRAVE &kp DOLLAR &kp EXCLAMATION &kp EQUAL &kp PLUS &kp LEFT_BRACKET &kp HASH &kp AT_SIGN &kp PERCENT &kp PIPE
+   &kp LEFT_BRACE        &kp LESS_THAN        &kp LEFT_PARENTHESIS        &kp LEFT_ALT        &kp TAB        &kp SLASH        &kp SINGLE_QUOTE        &kp AMPERSAND        &kp DOT        &kp UNDERSCORE        &kp LEFT_ARROW        &kp RIGHT_ARROW        &kp MINUS        &kp SEMICOLON        &kp DOWN_ARROW        &kp UP_ARROW        &kp ASTERISK        &kp COMMA        &kp GRAVE        &kp DOLLAR        &kp EXCLAMATION        &kp EQUAL        &kp PLUS        &kp LEFT_BRACKET        &kp HASH        &kp AT_SIGN        &kp PERCENT        &kp PIPE
    
-                                    &sk 4 &kp ESCAPE
-                                    &to 2 &kp SPACE &sk LEFT_CONTROL &kp ENTER &kp BACKSPACE &to 0
+                                    &sk 4        &kp ESCAPE       
+                                    &to 2        &kp SPACE        &sk LEFT_CONTROL        &kp ENTER        &kp BACKSPACE        &to 0
                         >;
                 };
 
@@ -85,12 +85,12 @@
 
                 Numbers_layer {
                         bindings = <
-                                &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &kp LEFT_ALT &kp TAB &none &none &none
-                                &kp NUMBER_0 &kp NUMBER_4 &kp NUMBER_5 &kp NUMBER_6 &kp DOT &kp COMMA &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp LESS_THAN &kp GREATER_THAN
-                                &none &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &none &none &none &none &none &none &none
+                                &kp NUMBER_1        &kp NUMBER_2        &kp NUMBER_3        &kp LEFT_ALT        &kp TAB        &none        &none        &none
+                                &kp NUMBER_0        &kp NUMBER_4        &kp NUMBER_5        &kp NUMBER_6        &kp DOT        &kp COMMA        &kp LEFT_PARENTHESIS        &kp RIGHT_PARENTHESIS        &kp LESS_THAN        &kp GREATER_THAN       
+                                &none        &kp NUMBER_7        &kp NUMBER_8        &kp NUMBER_9        &none        &none        &none        &none        &none        &none        &none
 
-                                &kp PLUS &kp MINUS
-                                &to 3 &kp SPACE &kp ASTERISK &kp SLASH &kp EQUAL &to 0
+                                &kp PLUS        &kp MINUS
+                                &to 3        &kp SPACE        &kp ASTERISK        &kp SLASH        &kp EQUAL        &to 0
                         >;
                 };
 
@@ -98,11 +98,11 @@
 
                 Function_and_BT_layer {
                         bindings = <
-   &kp F1 &kp F2 &kp F3 &kp F5 &kp F13 &kp F14 &kp F15 &kp F16
-   &none &kp F5 &kp F6 &kp F7 &kp F8 &kp F17  &kp F18 &kp F19 &kp F20 &kp none
-   &kp CAPS_LOCK &kp F9 &kp F10 &kp F11 &kp F12 &kp F21 &kp F22 &kp F23 &kp F24 &none
-                                &bt BT_SEL 0 &bt BT_DISC 0
-                                &bt BT_CLR_ALL &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_DISC 2 &bt BT_DISC 1
+   &kp F1        &kp F2        &kp F3        &kp F5        &kp F13        &kp F14        &kp F15        &kp F16       
+   &none        &kp F5        &kp F6        &kp F7        &kp F8        &kp F17         &kp F18        &kp F19        &kp F20        &none
+   &kp CAPS_LOCK        &kp F9        &kp F10        &kp F11        &kp F12        &kp F21        &kp F22        &kp F23        &kp F24        &none
+                                &bt BT_SEL 0        &bt BT_DISC 0
+                                &bt BT_CLR_ALL        &bt BT_SEL 1        &bt BT_SEL 2        &bt BT_DISC 2        &bt BT_DISC 1
                         >;
                 };
 
@@ -110,11 +110,11 @@
 
         Symbol_Second_layer {
                         bindings = <
-   &kp  &kp  &kp  &none  &none  &kp BACKSLASH &kp DOUBLE_QUOTES &none
-   &none  &none  &none  &none  &kp TILDE  &kp COLON &none  &none  &none  &none
-   &CARET  &none  &kp QUESTION &none  &none  &kp RIGHT_BRACKET &none  &none  &none  &none 
-   &none  &none 
-   &none  &none  &none  &none &none &none 
+   &kp RIGHT_BRACKET        &kp GREATER_THAN        &kp RIGHT_PARENTHESIS        &none         &none         &kp BACKSLASH        &kp DOUBLE_QUOTES        &none
+   &none         &none         &none         &none         &kp TILDE         &kp COLON        &none         &none         &none         &none
+   &CARET         &none         &kp QUESTION        &none         &none         &kp RIGHT_BRACKET        &none         &none         &none         &none
+   &none         &none
+   &none         &none         &none         &none        &none        &none 
                         >;
                 };
 
