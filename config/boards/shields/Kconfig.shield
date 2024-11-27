@@ -1,0 +1,5 @@
+config SHIELD_THUMBOY_LEFT
+    def_bool $(shields_list_contains, thumboy_left)
+
+config SHIELD_THUMBOY_RIGHT
+    def_bool $(shields_list_contains, thumboy_right)

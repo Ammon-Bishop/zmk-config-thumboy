@@ -1,0 +1,16 @@
+if SHIELD_THUMBOY
+
+config ZMK_KEYBOARD_NAME
+    default "thumboy"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_THUMBOY_LEFT || SHIELD_THUMBOY_RIGHT
+
+    config ZMK_SPLIT
+        default y
+
+endif
