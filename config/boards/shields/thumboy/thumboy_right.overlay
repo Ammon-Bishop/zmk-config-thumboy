@@ -1,7 +1,7 @@
 #include "thumboy.dtsi"
 
 &default_transform {
-    col-offset = <8>
+    col-offset = <8>;
 };
 
 &kscan0 {
