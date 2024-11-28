@@ -4,43 +4,6 @@
  * SPDX-License-Identifier: MIT
  */
 
-
-/ {
-        macros {
-                email1: email1 {
-                        compatible = "zmk,behavior-macro-one-param";
-                        #binding-cells = <1>;
-                        wait-ms = <30>;
-                        tap-ms = <30>;
-                        bindings
-                                = <&macro_tap &kp s &kp l &kp a &kp m &kp d &kp u &kp n &kp k &kp a &kp b &kp NUMBER_1 &kp NUMBER_7 &kp AT_SIGN &kp g &kp m &kp a &kp i &kp l &kp DOT &kp c &kp o &kp m>
-                                ;
-                };
-
-                email2: email2 {
-                        compatible = "zmk,behavior-macro-one-param";
-                        #binding-cells = <1>;
-                        wait-ms = <30>;
-                        tap-ms = <30>;
-                        bindings
-                                = <&macro_tap &kp b &kp i &kp s &kp h &kp o &kp a &kp m &kp m &kp NUMBER_0 &kp NUMBER_0 &kp NUMBER_0 &kp NUMBER_7 &kp AT_SIGN &kp a &kp M &kp l &kp p &kp i &kp n &kp e &kp s &kp d &kp DOT &kp o &kp r &kp g>
-                                ;
-                };
-
-                email3: email3 {
-                        compatible = "zmk,behavior-macro-one-param";
-                        #binding-cells = <1>;
-                        wait-ms = <30>;
-                        tap-ms = <30>;
-                        bindings
-                                = <&macro_tap &kp a &kp m &kp m &kp o &kp n &kp DOT &kp l &kp DOT &kp b &kp i &kp s &kp h &kp o &kp p &kp AT_SIGN &kp g &kp m &kp a &kp i &kp l &kp DOT &kp c &kp o &kp m>
-                                ;
-                };
-                
-        };
-};
-
-
  #define Home 0
 #define Symbol 1
 #define Numbers 2
